@@ -1,6 +1,9 @@
 # 💫 About Me:
 🔭 I’m currently working on autonomous robotics projects like ZenGrip (a Micromouse bot) and an AI-driven fintech platform featuring blockchain-secured payments.<br><br>👯 I’m looking to collaborate on Full Stack Development Project, open-source embedded systems (STM32, ESP32), or cross-platform Application..<br><br>🤝 I’m looking for help with advanced sensor fusion, PID control optimization, and hydrological modeling using QGIS.<br><br>🌱 I’m currently learning nextjs and authentication, Flood Fill algorithms for autonomous robots and tactical GIS mapping integration.<br><br>💬 Ask me about cross-platform development (C++, JS, Tailwind CSS, Next.js), competitive robotics hardware (Arduino, Teensy, Pi, ESP32, STM32), or navigating hackathons!<br><br>I love bridging the gap between software and hardware—I've built everything from a flood prediction model and kgen, to autonomous micromouse bots, swarm drone systems, and LiDAR mapping tools!
 
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=technosnag&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_mobile.pixels_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shshank-kumar-a639b1373)  [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kumarshshank75@gmail.com) 
