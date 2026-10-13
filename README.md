@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/shnkdev404">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00B4D8&center=true&vCenter=true&width=650&lines=Hardware+Engineer+%7C+Embedded+Systems;Building+Autonomous+Robots+from+Scratch;STM32+%E2%80%A2+ESP32+%E2%80%A2+Teensy+%E2%80%A2+Raspberry+Pi;LiDAR+Mapping+%26+Swarm+Drones;GIS+%26+Hydrological+Modeling+with+QGIS" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00B4D8&center=true&vCenter=true&width=650&lines=Hardware+Engineer+%7C+Embedded+Systems;Building+Autonomous+Robots+from+Scratch;Shared+Perception+%26+3D+Mapping;STM32+%E2%80%A2+ESP32+%E2%80%A2+Teensy+%E2%80%A2+Raspberry+Pi;Flood+Prediction+with+QGIS" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -22,11 +22,11 @@
 
 I build systems where **hardware meets software**, from low-level firmware on microcontrollers to the tools that visualize what those machines see.
 
-- 🔭 **Currently building** autonomous robots and embedded hardware, including **ZenGrip**, a competition Micromouse
-- 🛰️ **Experience in** swarm drones, LiDAR mapping, and GIS / hydrological modeling with **QGIS**
-- 🌱 **Learning** Flood Fill path planning for autonomous navigation, and Next.js with authentication
-- 🤝 **Open to collaborate** on open-source embedded systems (STM32, ESP32), robotics hardware, and full-stack apps that work with hardware
-- 🧠 **Looking to go deeper** into advanced sensor fusion and PID control optimization
+- 🔭 **Currently building** autonomous robots, including a ToF + IMU micromouse that navigates using Flood Fill
+- 👁️ **Working on shared perception:** fusing camera feeds from multiple devices (Meta glasses, monocular cameras) into one map of the environment
+- 🛰️ **Experience in** swarm drones, LiDAR-style mapping, and flood prediction with GIS / hydrological modeling in **QGIS**
+- 🌱 **Learning** advanced sensor fusion, PID control optimization, and Next.js authentication
+- 🤝 **Open to collaborate** on open-source embedded systems (STM32, ESP32), robotics, computer vision, and full-stack apps that work with hardware
 - 🏆 **Ask me about** competitive robotics hardware, embedded C/C++, GIS mapping, or surviving hackathons
 
 ---
@@ -42,12 +42,42 @@ I build systems where **hardware meets software**, from low-level firmware on mi
 ### 🚀 Featured Projects
 
 <table>
-  <tr><th align="left">Project</th><th align="left">What it is</th></tr>
-  <tr><td>🐭 <a href="https://github.com/shnkdev404/ZenGrip"><b>ZenGrip</b></a></td><td>Autonomous Micromouse that maps and solves a maze using Flood Fill</td></tr>
-  <tr><td>🛸 <a href="https://github.com/shnkdev404/REPO"><b>Swarm Drones</b></a></td><td>Coordinated multi-drone system</td></tr>
-  <tr><td>📡 <a href="https://github.com/shnkdev404/REPO"><b>LiDAR Mapper</b></a></td><td>LiDAR-based mapping and environment scanning tool</td></tr>
-  <tr><td>🌊 <a href="https://github.com/shnkdev404/REPO"><b>Flood Prediction</b></a></td><td>Flood prediction model built on hydrological modeling in QGIS</td></tr>
-  <tr><td>⚙️ <a href="https://github.com/shnkdev404/kgen"><b>kgen</b></a></td><td>ADD A ONE-LINE DESCRIPTION</td></tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🐭 <a href="https://github.com/shnkdev404/tof_wala_maze_runner">Maze Runner (Micromouse)</a></h3>
+      <p>Autonomous maze-solving bot using 3 ToF distance sensors with optional IMU/magnetometer fusion and Flood Fill navigation.</p>
+      <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/ToF_%2B_IMU-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Flood_Fill-0f3460?style=flat-square"/></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📡 <a href="https://github.com/shnkdev404/sentinel-net">sentinel-net</a></h3>
+      <p>LiDAR-style 3D mapping from a single monocular camera, building a shared map of the environment.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Computer_Vision-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Mapping-0f3460?style=flat-square"/></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🕶️ <a href="https://github.com/shnkdev404/Reycon-Meta-Glasses">Reycon Meta Glasses</a></h3>
+      <p>Shared perception system that fuses live feeds from multiple Ray-Ban Meta glasses to power safety features.</p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Shared_Perception-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Wearables-0f3460?style=flat-square"/></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌊 <a href="https://github.com/shnkdev404/flood-mapping">flood-mapping</a></h3>
+      <p>Predicts likely river paths and flood-affected areas using hydrological modeling and GIS analysis.</p>
+      <p><img src="https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white"/> <img src="https://img.shields.io/badge/Hydrology-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/GIS-0f3460?style=flat-square"/></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🩺 <a href="https://github.com/shnkdev404/Aidra">Aidra</a></h3>
+      <p>Health management platform combining AI assistance with real doctor support.</p>
+      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/AI-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Full_Stack-0f3460?style=flat-square"/></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 <a href="https://github.com/shnkdev404/Portfolio_Shshank">Portfolio</a></h3>
+      <p>My personal portfolio, built with Next.js and Tailwind CSS.</p>
+      <p><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/></p>
+    </td>
+  </tr>
 </table>
 
 ---
