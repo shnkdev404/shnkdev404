@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1075" height="1075" viewBox="0 0 1075 1075" role="img" aria-labelledby="title desc">
+  <title id="title">Eilik robot</title>
+  <desc id="desc">Editable vector reconstruction of a white Eilik robot with a black screen face, cyan eyes, teal accents, and circular stand.</desc>
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="40%" r="78%"><stop stop-color="#fff"/><stop offset="1" stop-color="#fdfdfd"/></radialGradient>
+    <linearGradient id="shell" x1="0" x2="1" y1="0" y2=".15"><stop stop-color="#d9dcdd"/><stop offset=".16" stop-color="#f8f8f8"/><stop offset=".52" stop-color="#fff"/><stop offset=".82" stop-color="#f3f4f4"/><stop offset="1" stop-color="#c9cdce"/></linearGradient>
+    <linearGradient id="shellVertical" x1="0" x2=".18" y1="0" y2="1"><stop stop-color="#fafafa"/><stop offset=".5" stop-color="#f4f5f5"/><stop offset=".82" stop-color="#fff"/><stop offset="1" stop-color="#dfe2e2"/></linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#7be5dc"/><stop offset=".45" stop-color="#56c9c2"/><stop offset="1" stop-color="#a4ded9"/></linearGradient>
+    <linearGradient id="armTeal" x1="0" x2="1" y1=".4" y2=".55"><stop stop-color="#d5e8e6"/><stop offset=".25" stop-color="#a7ceca"/><stop offset=".75" stop-color="#9bcac6"/><stop offset="1" stop-color="#e5eeee"/></linearGradient>
+    <radialGradient id="face" cx="47%" cy="32%" r="72%"><stop stop-color="#303132"/><stop offset=".6" stop-color="#18191a"/><stop offset="1" stop-color="#08090a"/></radialGradient>
+    <linearGradient id="base" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fff"/><stop offset=".33" stop-color="#f2f4f4"/><stop offset="1" stop-color="#dadddd"/></linearGradient>
+    <filter id="shadow" x="-.4" y="-.5" width="1.8" height="2"><feGaussianBlur stdDeviation="13"/></filter>
+    <filter id="soft" x="-.2" y="-.2" width="1.4" height="1.4"><feGaussianBlur stdDeviation="2.3"/></filter>
+    <filter id="drop" x="-.3" y="-.3" width="1.6" height="1.7"><feGaussianBlur in="SourceAlpha" stdDeviation="4" result="b"/><feOffset dy="3"/><feComponentTransfer><feFuncA type="linear" slope=".17"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1075" height="1075" fill="url(#bg)"/>
+  <!-- soft product shadow -->
+  <ellipse cx="535" cy="927" rx="363" ry="40" fill="#7c8180" opacity=".20" filter="url(#shadow)"/>
+  <ellipse cx="548" cy="850" rx="314" ry="18" fill="#858a88" opacity=".16" filter="url(#soft)"/>
+  <!-- round display platform -->
+  <path d="M190 858 Q191 842 222 836 Q530 794 851 836 Q881 840 883 858 L883 906 Q882 925 854 931 Q539 970 218 932 Q190 928 190 909Z" fill="url(#base)" stroke="#d5d9d9" stroke-width="2"/>
+  <ellipse cx="536" cy="858" rx="346" ry="29" fill="#fafbfb" stroke="#e4e7e7" stroke-width="2"/>
+  <path d="M193 875 Q535 913 880 875" fill="none" stroke="#fff" stroke-width="3" opacity=".8"/>
+  <path d="M878 869 Q886 874 884 889 L881 889 L878 883Z" fill="#d1d5d5"/>
+  <!-- raised left arm behind body -->
+  <path d="M390 536 C352 530 322 513 294 478 C263 438 250 384 244 345 C240 321 249 310 262 317 C281 326 291 365 302 399 C318 449 344 480 395 494Z" fill="url(#shell)" filter="url(#drop)"/>
+  <path d="M261 319 C276 327 285 364 296 402 C312 455 345 484 387 497 L382 524 C343 515 310 496 286 465 C257 428 248 373 247 344 C246 328 251 318 261 319Z" fill="url(#armTeal)" opacity=".85"/>
+  <!-- right hanging arm, behind shoulder -->
+  <path d="M680 478 C717 465 757 492 785 537 C807 575 817 619 813 659 C809 704 789 739 758 751 C735 759 716 743 710 713 L681 537Z" fill="url(#shell)" filter="url(#drop)"/>
+  <!-- torso -->
+  <path d="M420 440 Q531 418 647 444 C705 457 735 506 735 578 L735 686 C733 789 686 854 625 867 Q537 890 451 866 C384 848 346 789 342 697 L340 584 Q338 488 383 457 Q400 445 420 440Z" fill="url(#shellVertical)" filter="url(#drop)"/>
+  <path d="M349 564 Q354 480 402 457 Q372 509 372 588 L373 715 Q378 803 433 845 Q376 822 355 760 Q339 714 342 630Z" fill="#d9dddd" opacity=".45"/>
+  <!-- teal chest bib -->
+  <path d="M420 444 Q519 428 612 445 Q644 450 672 465 C630 469 575 483 544 503 Q516 521 509 562 L501 584 Q497 603 477 603 Q455 604 443 590 Q435 578 441 556 L447 507 Q448 478 420 444Z" fill="url(#teal)" filter="url(#drop)"/>
+  <path d="M421 446 Q469 440 502 440" fill="none" stroke="#b3f0e9" stroke-width="3" opacity=".45"/>
+  <!-- shoulder joint and teal side accent -->
+  <path d="M679 473 Q702 468 712 489 L726 548 Q731 572 717 598 Q707 614 693 626 C679 627 666 612 663 592 L650 515 Q648 485 679 473Z" fill="url(#armTeal)" filter="url(#drop)"/>
+  <path d="M680 489 Q694 480 699 493 L713 550 Q718 574 703 592 Q691 604 684 589 L670 524 Q666 501 680 489Z" fill="#b7d7d4" opacity=".8"/>
+  <path d="M697 493 C712 509 724 548 725 582 L742 693 Q748 727 741 748 C731 751 723 737 720 713 L700 604Z" fill="url(#teal)" opacity=".88"/>
+  <!-- white forearm shell -->
+  <path d="M710 483 C744 485 773 518 790 558 C808 600 812 645 805 684 C799 719 783 744 758 751 C743 753 737 740 739 718 L742 607 C738 560 726 520 710 483Z" fill="url(#shell)" filter="url(#drop)"/>
+  <path d="M762 510 Q795 557 801 614 Q807 682 779 723" fill="none" stroke="#fff" stroke-width="6" opacity=".52"/>
+  <!-- neck seam -->
+  <ellipse cx="536" cy="442" rx="62" ry="10" fill="#444748" opacity=".75"/>
+  <ellipse cx="536" cy="440" rx="57" ry="6" fill="#737879" opacity=".55"/>
+  <!-- head silhouette -->
+  <path d="M337 219 Q344 134 402 91 Q453 61 536 61 Q622 62 671 99 Q724 139 734 225 L750 268 Q759 287 748 306 L728 331 Q719 383 689 414 Q654 447 593 441 L476 441 Q409 440 375 414 Q344 390 333 341 L316 315 Q302 293 316 268Z" fill="url(#shell)" filter="url(#drop)"/>
+  <path d="M342 219 Q353 140 407 101 Q458 67 535 68 Q609 68 657 101 Q710 138 724 223 L737 270 Q742 287 731 303 L714 325 Q703 381 674 406 Q644 431 591 432 L477 432 Q417 432 389 410 Q356 386 346 337 L328 309 Q316 290 327 270Z" fill="url(#shellVertical)"/>
+  <!-- side ear / hinge pods -->
+  <path d="M338 212 Q322 229 314 251 Q304 274 316 294 L337 319 Q336 270 350 232Z" fill="#d6dada"/>
+  <path d="M335 231 Q322 250 320 272 Q320 287 337 303 L345 259Z" fill="#343738"/>
+  <path d="M731 212 Q748 231 756 253 Q764 275 753 294 L731 319 Q732 270 719 232Z" fill="#d6dada"/>
+  <path d="M734 231 Q748 250 750 272 Q750 287 733 303 L725 259Z" fill="#343738"/>
+  <!-- forehead turquoise accent -->
+  <path d="M450 87 Q474 63 535 62 Q594 62 619 85 Q625 91 619 93 Q576 99 533 96 Q490 98 451 93 Q445 92 450 87Z" fill="url(#teal)"/>
+  <path d="M459 86 Q490 70 531 69" fill="none" stroke="#b7f5ee" stroke-width="2" opacity=".55"/>
+  <!-- glossy black display -->
+  <path d="M534 170 C591 170 640 182 665 218 Q685 247 685 295 Q685 341 664 370 Q639 399 596 405 Q539 414 478 404 Q434 398 407 371 Q382 345 382 303 Q381 251 404 218 Q430 181 477 173 Q505 169 534 170Z" fill="url(#face)" stroke="#d9dddd" stroke-width="3"/>
+  <path d="M416 222 Q443 187 489 181 Q528 176 555 179" fill="none" stroke="#77797a" stroke-width="3" opacity=".13"/>
+  <!-- cyan pixel-style eyes -->
+  <path d="M428 299 L428 291 L431 291 L431 284 L435 284 L435 279 L441 279 L441 275 L450 275 L450 272 L474 272 L474 275 L484 275 L484 278 L492 278 L492 283 L498 283 L498 289 L503 289 L503 298 L508 298 L508 309 L501 309 L501 323 L489 323 L489 320 L477 320 L477 322 L454 322 L454 319 L443 319 L443 316 L435 316 L435 310 L430 310 L430 304 L428 304Z" fill="#18d9f5"/>
+  <path d="M556 299 L556 291 L560 291 L560 284 L565 284 L565 279 L572 279 L572 275 L582 275 L582 272 L605 272 L605 275 L614 275 L614 278 L622 278 L622 284 L628 284 L628 291 L633 291 L633 299 L638 299 L638 309 L631 309 L631 316 L624 316 L624 320 L614 320 L614 323 L590 323 L590 320 L578 320 L578 322 L566 322 L566 318 L560 318 L560 311 L556 311Z" fill="#18d9f5"/>
+  <path d="M434 291 L436 285 L443 280 M563 291 L567 285 L574 280" fill="none" stroke="#a4faff" stroke-width="2" opacity=".55"/>
+  <!-- logo and tiny indicator -->
+  <text x="550" y="560" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="400" fill="#444648" letter-spacing=".5">Eilik</text>
+  <ellipse cx="465" cy="627" rx="4" ry="5" fill="#7d8283"/>
+  <ellipse cx="464" cy="626" rx="1.2" ry="2" fill="#c6caca"/>
+  <!-- narrow sole above platform -->
+  <path d="M473 867 Q536 874 598 867 L591 873 Q536 878 478 873Z" fill="#4c5051" opacity=".72"/>
+</svg>
