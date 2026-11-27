@@ -1,6 +1,6 @@
 <!-- ====== HEADER ====== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:00b4d8&height=220&section=header&text=Shshank&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Embedded%20Systems%20%E2%80%A2%20Robotics%20%E2%80%A2%20GIS&descAlignY=58&descSize=18" width="100%"/>
+  <img src="./assets/banner.svg" width="100%" alt="Shshank: Embedded Systems, Robotics, GIS"/>
 </p>
 
 <p align="center">
@@ -20,8 +20,6 @@
 
 ### About Me
 
-<img src="./assets/bot.svg" alt="A small robot waving hello" align="right" width="230">
-
 I build systems where **hardware meets software**, from low-level firmware on microcontrollers to the tools that visualize what those machines see.
 
 - **Kaya AI, Engineering Intern (Physical AI):** built Meta smart-glasses apps that give construction crews safety alerts and navigation, the SDK that connects the glasses to Kaya's platform, and a note-taking hardware device
@@ -30,8 +28,6 @@ I build systems where **hardware meets software**, from low-level firmware on mi
 - **Working on shared perception:** fusing camera feeds from multiple devices (Meta glasses, monocular cameras) into one map of the environment
 - **Also done:** single-flight drone video to georeferenced 3D models (SIH 2026), and flood prediction with hydrological modelling in **QGIS**
 - **Studying** Information Technology at Army Institute of Technology, Pune (2025 to 2029)
-
-<br clear="right">
 
 ---
 
@@ -125,9 +121,4 @@ I build systems where **hardware meets software**, from low-level firmware on mi
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shnkdev404/shnkdev404/output/github-snake.svg" />
     <img alt="contribution snake" src="https://raw.githubusercontent.com/shnkdev404/shnkdev404/output/github-snake-dark.svg" />
   </picture>
-</p>
-
-<!-- ====== FOOTER ====== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:0f3460,100:0d1117&height=120&section=footer" width="100%"/>
 </p>
