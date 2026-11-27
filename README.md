@@ -18,20 +18,34 @@
 
 ---
 
-### ⚡ About Me
+### About Me
+
+<img src="./assets/bot.svg" alt="A small robot waving hello" align="right" width="230">
 
 I build systems where **hardware meets software**, from low-level firmware on microcontrollers to the tools that visualize what those machines see.
 
-- 🔭 **Currently building** autonomous robots, including a ToF + IMU micromouse that navigates using Flood Fill
-- 👁️ **Working on shared perception:** fusing camera feeds from multiple devices (Meta glasses, monocular cameras) into one map of the environment
-- 🛰️ **Experience in** swarm drones, LiDAR-style mapping, and flood prediction with GIS / hydrological modeling in **QGIS**
-- 🌱 **Learning** advanced sensor fusion, PID control optimization, and Next.js authentication
-- 🤝 **Open to collaborate** on open-source embedded systems (STM32, ESP32), robotics, computer vision, and full-stack apps that work with hardware
-- 🏆 **Ask me about** competitive robotics hardware, embedded C/C++, GIS mapping, or surviving hackathons
+- **Kaya AI, Engineering Intern (Physical AI):** built Meta smart-glasses apps that give construction crews safety alerts and navigation, the SDK that connects the glasses to Kaya's platform, and a note-taking hardware device
+- **Sinew, Co-founder:** a wearable that monitors back health for athletes and medical users
+- **Building** autonomous robots, including a ToF + IMU micromouse that navigates using Flood Fill
+- **Working on shared perception:** fusing camera feeds from multiple devices (Meta glasses, monocular cameras) into one map of the environment
+- **Also done:** single-flight drone video to georeferenced 3D models (SIH 2026), and flood prediction with hydrological modelling in **QGIS**
+- **Studying** Information Technology at Army Institute of Technology, Pune (2025 to 2029)
+
+<br clear="right">
 
 ---
 
-### 🛠️ Tech Stack
+### Achievements
+
+- Winner, Kaya AI Hackathon
+- Winner, Bit by Bit, IIT Roorkee
+- Winner, Aavishkar Research Convention, Savitribai Phule Pune University
+- Finalist, Ekal Yuya
+- Organising team, Campus Catalyst 2K26 (CIDC, AIT Pune)
+
+---
+
+### Tech Stack
 
 <p align="center">
   <img src="./assets/tech-strip.svg" width="100%" alt="Tech stack: C, C++, Python, JavaScript, TypeScript, HTML5, CSS3, Next.js, React, Tailwind, Node.js, Firebase, Vercel, Linux, Git, GitHub, STM32, ESP32, Arduino, Teensy, Raspberry Pi, LiDAR, QGIS, Lightroom, Canva"/>
@@ -39,41 +53,41 @@ I build systems where **hardware meets software**, from low-level firmware on mi
 
 ---
 
-### 🚀 Featured Projects
+### Featured Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🐭 <a href="https://github.com/shnkdev404/tof_wala_maze_runner">Maze Runner (Micromouse)</a></h3>
+      <h3><a href="https://github.com/shnkdev404/tof_wala_maze_runner">Maze Runner (Micromouse)</a></h3>
       <p>Autonomous maze-solving bot using 3 ToF distance sensors with optional IMU/magnetometer fusion and Flood Fill navigation.</p>
       <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/ToF_%2B_IMU-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Flood_Fill-0f3460?style=flat-square"/></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📡 <a href="https://github.com/shnkdev404/sentinel-net">sentinel-net</a></h3>
+      <h3><a href="https://github.com/shnkdev404/sentinel-net">sentinel-net</a></h3>
       <p>LiDAR-style 3D mapping from a single monocular camera, building a shared map of the environment.</p>
       <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Computer_Vision-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Mapping-0f3460?style=flat-square"/></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🕶️ <a href="https://github.com/shnkdev404/Reycon-Meta-Glasses">Reycon Meta Glasses</a></h3>
+      <h3><a href="https://github.com/shnkdev404/Reycon-Meta-Glasses">Reycon Meta Glasses</a></h3>
       <p>Shared perception system that fuses live feeds from multiple Ray-Ban Meta glasses to power safety features.</p>
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Shared_Perception-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Wearables-0f3460?style=flat-square"/></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🌊 <a href="https://github.com/shnkdev404/flood-mapping">flood-mapping</a></h3>
+      <h3><a href="https://github.com/shnkdev404/flood-mapping">flood-mapping</a></h3>
       <p>Predicts likely river paths and flood-affected areas using hydrological modeling and GIS analysis.</p>
       <p><img src="https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white"/> <img src="https://img.shields.io/badge/Hydrology-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/GIS-0f3460?style=flat-square"/></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🩺 <a href="https://github.com/shnkdev404/Aidra">Aidra</a></h3>
+      <h3><a href="https://github.com/shnkdev404/Aidra">Aidra</a></h3>
       <p>Health management platform combining AI assistance with real doctor support.</p>
       <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/AI-0f3460?style=flat-square"/> <img src="https://img.shields.io/badge/Full_Stack-0f3460?style=flat-square"/></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🌐 <a href="https://github.com/shnkdev404/Portfolio_Shshank">Portfolio</a></h3>
+      <h3><a href="https://github.com/shnkdev404/Portfolio_Shshank">Portfolio</a></h3>
       <p>My personal portfolio, built with Next.js and Tailwind CSS.</p>
       <p><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/></p>
     </td>
@@ -82,7 +96,7 @@ I build systems where **hardware meets software**, from low-level firmware on mi
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.shion.dev/api?username=shnkdev404&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8&include_all_commits=true&count_private=true"/>
@@ -103,7 +117,7 @@ I build systems where **hardware meets software**, from low-level firmware on mi
 
 ---
 
-### 🐍 Contribution Snake
+### Contribution Snake
 
 <p align="center">
   <picture>
